@@ -23,25 +23,35 @@ article p {
     text-align: justify;
     font-size: 20px;
 }
-div{
-    font-size: 18px;
+.skils{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+
+.tag {
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    width: fit-content;
+}
+
 .html { 
-    color: #f97316; 
-    display: block;
+    background: #f97316; 
+    display: inline-block;
 }
 
 .css { 
     background: #3b82f6; 
-    display: block
+    display: inline-block
 }
 .js { 
     background: #eab308; color: black;
-    display: block; 
+    display: inline-block; 
 }
 .git { 
     background: #6b7280; 
-    display: block;
+    display: inline-block;
 }
 h2{
     color: white;
