@@ -2,6 +2,22 @@ body{
     background-image: linear-gradient(to left, navy, black);
     color: white;
 }
+h1{
+    text-align: center;
+    font-size: 24px;
+}
+article p {
+    text-align: justify;
+    font-size: 20px;
+}
+h2{
+    font-size: 24px;
+}
+aside{
+    text-align: justify;
+    margin: 10px;
+    font-size: 20px;
+}
 footer{
     text-align: center;
     padding: 10px;
