@@ -18,6 +18,18 @@ header h1{
     margin: 0;
     font-size: 28px;
 }
+nav{
+    margin: 20px 0;
+}
+nav a {
+  background-color: #24292e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
 article p {
     color: white;
     text-align: justify;
