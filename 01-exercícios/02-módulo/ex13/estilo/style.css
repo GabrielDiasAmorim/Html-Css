@@ -12,12 +12,15 @@ article p {
 }
 .html{
     border: 5px solid orange;
+    color: white;
 }
 .css{
     border: 5px solid #214CE5;
+    color: white;
 }
 .js{
     border: 5px solid yellow;
+    color: white;
 }
 h2{
     font-size: 24px;
