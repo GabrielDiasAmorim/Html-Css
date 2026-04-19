@@ -2,7 +2,7 @@ body{
     background-image: linear-gradient(to left, navy, black);
 
     /*esses tres aqui peguei com o chatgpt*/
-    min-height: 96vh;
+    min-height: 94vh;
     display: flex;
     flex-direction: column;
 }
