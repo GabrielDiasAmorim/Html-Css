@@ -6,8 +6,8 @@ body{
 header{
     background-image: linear-gradient(45deg, black, darkblue);
     color: white;
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     border: 10px solid black;
     padding: 50px;
     margin: 50px;
