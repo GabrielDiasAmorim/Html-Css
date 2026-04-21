@@ -16,7 +16,7 @@
             border: 1px solid gray;
             padding: 10px;
         }
-        th:nth-child(even) {
+        th{
             background-color: lightgray;
         }
     </style>
@@ -26,21 +26,13 @@
         <tr>
             <th rowspan="2" scope="col">areas</th>
             <th rowspan="2" scope="col">disciplina</th>
-            <tr>
             <th colspan="2" scope="col">notas</th>
-            </tr>
-            <tr>
-                <td>Nota 1</td>
-            </tr>
-            <tr>
-                <td>Nota 2</td>
-            </tr>
             <th scope="col">nota 1</th>
             <th scope="col">nota 2</th>
             <th rowspan="2" scope="col">media</th>
         </tr>
         <tr>
-            <th rowspan="4"  scope="rowgroup">exatas</th>
+            <th rowspan="4"  scope="rowgroup" class="nao">exatas</th>
             <td>matemática</td>
             <td>0.0</td>
             <td>0.0</td>
@@ -70,7 +62,7 @@
         </tr>
         <tr>
             
-            <th rowspan="2" scope="rowgroup">humanas</th>
+            <th rowspan="2" scope="rowgroup" class="nao">humanas</th>
 
             <td>história</td>
             <td>0.0</td>
