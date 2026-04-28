@@ -18,3 +18,10 @@ h2 {
 main ul {
     color: white;
 }
+nav a {
+    color: blue;
+}
+nav a:hover {
+    color: purple;
+    transition: 0.5ms;
+}
