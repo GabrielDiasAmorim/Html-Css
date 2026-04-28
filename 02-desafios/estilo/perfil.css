@@ -5,13 +5,13 @@ h1 {
     color: #f1f5f9;
     text-align: center;
 }
-p {
+main p {
     text-align: justify;
     color: white;
 }
 h2 {
     color: #38bdf8;
 }
-ul {
+main ul {
     color: white;
 }
