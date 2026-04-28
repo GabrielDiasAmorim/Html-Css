@@ -9,6 +9,9 @@ main p {
     text-align: justify;
     color: white;
 }
+img {
+    margin: auto;
+}
 h2 {
     color: white;
 }
