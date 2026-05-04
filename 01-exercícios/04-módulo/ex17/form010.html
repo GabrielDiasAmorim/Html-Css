@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iano">ano que vocr nasceu</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2026" oninput="iano.inner.HTML=Number(iano.value)">
+            <output id="iano">0</output>
+        </p>
+        <p>
+            <label for="iidade">sua idade é:</label>
+            <input type="number" name="idade" id="iidade" oninput="iidade.inner.HTML=Number(iidade.value)">
+            <output id="iidade">0</output>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
