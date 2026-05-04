@@ -14,7 +14,7 @@
         </p>
         <p>
             <label for="iidade">voce fará:</label>
-            <output id="iidade">0 anos nesse ano</output>
+            <output id="iidade">0</output>
         </p>
         <p>
             <input type="submit" value="enviar">
@@ -23,7 +23,7 @@
     </form>
     <script>
         function calcIdade(){
-            let atual = new Date ().getFullYear()
+            let atual = new Date().getFullYea()
             iidade.innerHTML = Number(atual) - Number(iano.value)
         }
     </script>
