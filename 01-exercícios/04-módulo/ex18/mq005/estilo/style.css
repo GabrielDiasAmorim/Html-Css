@@ -28,7 +28,7 @@ header h1 {
 menu {
     display: none;
 }
-menu li {
+menu ul {
     list-style-type: none;
 }
 menu a {
