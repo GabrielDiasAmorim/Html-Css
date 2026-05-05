@@ -30,6 +30,7 @@ menu {
 }
 menu > ul {
     list-style-type: none;
+    width: 100%;
 }
 menu > ul > li > a {
     display: block;
