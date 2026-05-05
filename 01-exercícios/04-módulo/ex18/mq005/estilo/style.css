@@ -22,9 +22,10 @@ header h1 {
 }
 #burguer:hover {
     background-color: white;
-    color: black;}
+    color: black;
+}
 menu {
-    display: block;
+    display: none;
 }
 menu li {
     list-style-type: none;
